@@ -1,0 +1,31 @@
+{
+  "name": "reports",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "12.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node-fetch": "^2.5.7",
+    "@types/nodemon": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "heroku": "^7.43.0",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.4",
+    "now": "^20.1.0"
+  },
+  "devDependencies": {
+    "@vercel/node": "^1.8.2"
+  }
+}
